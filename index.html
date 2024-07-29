@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Page</title>
+<style>
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+  padding: 30px;
+  flex: 1;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-form .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+.login-form .btn:hover {
+  background-color: #45a049;
+}
+
+.login-form .social-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.login-form .social-links a {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.login-form .social-links a:hover {
+  background-color: #f0f0f0;
+}
+
+.login-form .or {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.register-form {
+  flex: 1;
+  padding: 30px;
+  background-color: #4CAF50;
+  color: #fff;
+  border-radius: 0 10px 10px 0;
+}
+
+.register-form h2 {
+  margin-bottom: 20px;
+}
+
+.register-form .btn {
+  background-color: #fff;
+  color: #4CAF50;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+.register-form .btn:hover {
+  background-color: #e0e0e0;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="login-form">
+    <h2>Login to Your Account</h2>
+    <p>Login using social networks</p>
+    <div class="social-links">
+      <a href="#">
+        <img src="facebook.png" alt="Facebook"image height="15px">
+      </a>
+      <a href="#">
+        <img src="google.png" alt="Google"image height="15px">
+      </a>
+      <a href="#">
+        <img src="linkedin.png" alt="LinkedIn"image height="15px">
+      </a>
+    </div>
+    <div class="or">OR</div>
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Password" required>
+    <button class="btn">Sign In</button>
+  </div>
+  <div class="register-form">
+    <h2>New Here?</h2>
+    <p>Sign up and discover a great amount of new opportunities!</p>
+    <button class="btn">Sign Up</button>
+  </div>
+</div>
+</body>
+</html>
